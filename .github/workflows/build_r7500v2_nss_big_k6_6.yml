@@ -1,4 +1,4 @@
-name: Netgear R7800 NSS K6.6 in GH Release
+name: Netgear R7500v2 NSS K6.6 in GH Release
 on:
   workflow_dispatch:
 
