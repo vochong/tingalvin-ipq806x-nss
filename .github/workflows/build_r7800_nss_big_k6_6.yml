@@ -150,5 +150,5 @@ jobs:
           generateReleaseNotes: true
           makeLatest: false
           artifacts: |
-            bin/targets/ipq806x/*
+            bin/targets/ipq806x/generic/*
           token: "${{ secrets.GITHUB_TOKEN }}"
