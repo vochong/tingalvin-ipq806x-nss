@@ -56,10 +56,10 @@ jobs:
           echo "Show the content of feeds.conf.default"
           cat ./feeds.conf.default
 
-      - name: Set executable permission
-        run: |
-          chmod 500 ./files/usr/bin/wsvpn-linux-arm64
-          ls -la ./files/usr/bin/wsvpn-linux-arm64
+      #- name: Set executable permission
+      #  run: |
+      #    chmod 500 ./files/usr/bin/wsvpn-linux-arm64
+      #    ls -la ./files/usr/bin/wsvpn-linux-arm64
 
       - name: Show available disk space before cleanup
         run: |
