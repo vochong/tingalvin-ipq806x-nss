@@ -36,8 +36,8 @@ jobs:
       - name: Git rebase to upstream/openwrt-24.10
         run: |
           git pull --rebase
-          git remote add upstream-openwrt https://git.openwrt.org/openwrt/openwrt.git
-          git fetch upstream-openwrt
+          git remote add upstream https://git.openwrt.org/openwrt/openwrt.git
+          git fetch upstream
           git rebase --rebase-merges upstream/openwrt-24.10
 
       - name: Search for kernel bump commits
